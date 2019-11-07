@@ -1,0 +1,25 @@
+.Input {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    
+    label {
+      margin-bottom: 10px;
+    }
+    input {
+      padding-bottom: 1px 5px;
+      width: 200px;
+      height: 30px;
+      border-radius: 10px;
+      color: rgb(4, 5, 5);
+      outline: none;
+      margin-bottom: 30px;
+      &:focus{
+        border: 1px solid rgb(224, 135, 94);
+      }
+      &::placeholder {
+        color: rgba(0, 0, 0, 0.801);
+      }
+    }
+  }
+  

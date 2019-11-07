@@ -1,0 +1,19 @@
+.Aside{
+    .envelope{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(-45deg,#452c6b 33%,transparent 0),linear-gradient(-45deg,rgb(25, 8, 42) 67%,transparent 0),linear-gradient(-45deg,#452c6b 100%,transparent 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img{
+        width: 40px;
+        height: 40px;
+    }
+    .texto{
+        font-size: 12pt;
+        color: white;
+    }
+}
+}    

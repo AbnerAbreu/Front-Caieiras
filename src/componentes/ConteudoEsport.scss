@@ -1,0 +1,40 @@
+.ConteudoEsporte{
+    width: 100%;
+    height: 400px;
+    // background-color: purple;
+    border-bottom: 5px solid purple;
+    .imagem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            // margin-top:15px;
+            // margin-left: 10px;
+            height: 170px;
+            width: 100%;
+        }
+    }.local{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+        h1{
+            color:black;
+            font-size:12pt;
+        }
+        .rua{
+            color:black;
+            font-size:10pt;
+        }
+    }
+    .conteudo{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .hora{
+            color:black;
+        }.dia{
+            color:black;
+        }
+    }
+    
+}
