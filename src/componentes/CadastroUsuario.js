@@ -3,6 +3,7 @@ import './CadastroUsuario.scss';
 import Botao from './Botao';
 import Input from './Input';
 import {Link} from 'react-router-dom';
+import { API_URL } from '../api';
 
 const CadastroUsuario = () => {
     const [nome, setNome] = useState("");
