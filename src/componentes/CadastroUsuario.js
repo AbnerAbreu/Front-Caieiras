@@ -46,7 +46,7 @@ const CadastroUsuario = () => {
             idade: idade,
             telefone: telefone,
           }
-          fetch('http://localhost:8000/usuarios/',
+          fetch(API_URL + '/usuarios/',
             {
               method: 'POST',
               headers: {
